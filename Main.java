@@ -101,7 +101,9 @@ public class Main {
 					}
 
 				} catch (Exception e) {
-					e.printStackTrace();
+					System.out.println("Card cannot be played please choose another:");
+					currentPlayer = i;
+					break;
 				}
 			}
 
